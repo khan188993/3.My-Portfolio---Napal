@@ -144,12 +144,6 @@ button {
     font-weight: 500;
 }
 
-
-
-
-
-
-
 .btn {
     display: inline-block;
     color: var(--white);
@@ -173,7 +167,7 @@ button {
 }
 
 
-.scroll-up-btn{
+.scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 42px;
@@ -193,18 +187,16 @@ button {
     transition: all 0.3s ease;
 }
 
-.scroll-up-btn.show{
+.scroll-up-btn.show {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
 }
-.scroll-up-btn:hover{
+
+.scroll-up-btn:hover {
     filter: brightness(90%);
 }
 
-
-
-/* ========= Mobile Menu Part Start ===========  */
 /* ========= Header Part Start ===========  */
 
 #header {
@@ -307,7 +299,7 @@ button {
     font-size: 22px;
 }
 
-/* about  */
+/* ========= About Part Start ===========  */
 
 #about .sectionHeading h1::after {
     content: "Who I Am";
@@ -315,7 +307,7 @@ button {
 
 
 #about .sectionHeading {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -332,14 +324,15 @@ button {
 }
 
 .about-text span {
-	color: var(--red);
+    color: var(--red);
 }
 
 .about-text p {
     text-align: justify;
 }
 
-/* Service  */
+/* ========= Service Part Start ===========  */
+
 section#services {
     background-color: var(--black);
     color: var(--white);
@@ -411,7 +404,9 @@ section .container .row:last-child {
 }
 
 
-/* Skills  */
+
+/* ========= Skills Part Start ===========  */
+
 
 .single-progress .progress-text {
     font-size: 16px;
@@ -463,25 +458,32 @@ section .container .row:last-child {
 }
 
 .progress-line.html::before {
-	width: 90%;
-}
-.progress-line.css::before {
-	width: 80%;
-}
-.progress-line.javascript::before {
-	width: 60%;
-}
-.progress-line.jquery::before {
-	width: 75%;
-}
-.progress-line.php::before {
-	width: 60%;
-}
-.progress-line.mysql::before {
-	width: 68%;
+    width: 90%;
 }
 
-/* team  */
+.progress-line.css::before {
+    width: 80%;
+}
+
+.progress-line.javascript::before {
+    width: 60%;
+}
+
+.progress-line.jquery::before {
+    width: 75%;
+}
+
+.progress-line.php::before {
+    width: 60%;
+}
+
+.progress-line.mysql::before {
+    width: 68%;
+}
+
+
+/* ========= Services Part Start ===========  */
+
 
 section#team {
     background-color: var(--black);
@@ -555,7 +557,8 @@ section .container .row:last-child {
 }
 
 
-/* team  */
+/* ========= Team Part Start ===========  */
+
 
 
 .owl-carousel .owl-item img {
@@ -614,7 +617,8 @@ section .container .row:last-child {
 }
 
 
-/* contact */
+/* ========= Contact Part Start ===========  */
+
 
 
 .contact-text h1 {
@@ -704,7 +708,8 @@ section .container .row:last-child {
 }
 
 
-/* footer  */
+/* ========= Footer Part Start ===========  */
+
 
 
 #footer h5 {
@@ -722,11 +727,12 @@ section .container .row:last-child {
 }
 
 
-/* responsive  */
+/* ========= Responsive Part Start ===========  */
 
-@media (max-width:1290px){
+
+@media (max-width:1290px) {
     .hero-text {
-    
+
         margin-left: 0px;
     }
 
@@ -734,13 +740,14 @@ section .container .row:last-child {
         width: 330px;
         height: 330px;
     }
+
     .about-text {
         padding-top: 0px;
     }
 
     .single-service.team p {
-       padding: 0;
-       text-align: center;
+        padding: 0;
+        text-align: center;
     }
 
     .box h2 {
@@ -748,12 +755,10 @@ section .container .row:last-child {
         margin-top: 20px;
     }
 
-    /* .input-wrapper-1 {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 20px;
-    } */
 
-    .form input, .form textarea {
+
+    .form input,
+    .form textarea {
         padding: 6px;
     }
 }
@@ -763,9 +768,11 @@ section .container .row:last-child {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .form input, .form textarea {
+    .form input,
+    .form textarea {
         padding: 11px;
     }
+
     .menu ul {
         position: fixed;
         top: 0;
@@ -827,7 +834,8 @@ section .container .row:last-child {
         margin-bottom: 30px;
     }
 
-    .skill-text,.contact-text {
+    .skill-text,
+    .contact-text {
         margin-bottom: 50px;
     }
 
@@ -853,8 +861,8 @@ section .container .row:last-child {
         font-size: 20px;
     }
 
-    section{
-        padding:50px 0;
+    section {
+        padding: 50px 0;
     }
 
     .about-text h1 {
@@ -867,9 +875,11 @@ section .container .row:last-child {
     .hero-text h1 {
         font-size: 43px;
     }
+
     .hero-text h2 {
         font-size: 23px;
     }
+
     .hero-text h3 {
         font-size: 26px;
     }
@@ -904,7 +914,8 @@ section .container .row:last-child {
         margin-bottom: 22px;
     }
 
-    .contact-text,.skill-text {
+    .contact-text,
+    .skill-text {
         padding-right: 0px;
     }
 
@@ -925,7 +936,8 @@ section .container .row:last-child {
         grid-row-gap: 22px;
     }
 
-    .contact-text h1,.contact-form h1 {
+    .contact-text h1,
+    .contact-form h1 {
         margin-bottom: 36px;
         text-align: center;
     }
@@ -936,10 +948,12 @@ section .container .row:last-child {
         line-height: 25px;
     }
 
-    .input-wrapper-4 .btn,.skill-text a,.about-text a {
+    .input-wrapper-4 .btn,
+    .skill-text a,
+    .about-text a {
         font-size: 17px;
     }
 
 
-    
+
 }
